@@ -1,10 +1,13 @@
 package es.com.pc_futbol.model;
 
+import java.util.ArrayList;
+
 public class Torneo {
 	
 	private String nombre;
 	private String descripcion;
 	private boolean nacional;
+	private ArrayList<Fecha> fechas;
 	
 	//gets and sets:
 	public String getNombre() {
@@ -24,6 +27,14 @@ public class Torneo {
 	}
 	public void setNacional(boolean nacional) {
 		this.nacional = nacional;
+	}
+	
+	//agregando fechas:
+	public void addFecha(Fecha fecha) {
+		if (fechas == null) {
+			fechas = new ArrayList<>();
+		}
+		fechas.add(fecha);
 	}
 		
 }

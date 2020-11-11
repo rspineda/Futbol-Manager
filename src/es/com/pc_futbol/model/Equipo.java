@@ -43,6 +43,9 @@ public class Equipo {
 		public void setDt(DT dt) {
 			this.dt = dt;
 		}
+		public ArrayList<Jugador> getJugadores() {
+			return jugadores;
+		}
 		
 		
 		//agregando jugadores:

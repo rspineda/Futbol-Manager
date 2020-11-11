@@ -8,6 +8,11 @@ public class Fecha {
 	private boolean fechaFifa;
 	private ArrayList<Partido> partidos;
 	
+	//método constructor de Fecha  (mismo nombre que la clase y no devuelve nada)
+	public Fecha(int numero) {
+		this.numero = numero;
+	}
+	
 	
 	//gets and sets:
 	public int getNumero() {

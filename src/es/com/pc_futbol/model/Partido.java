@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class Partido {
 
-	private static final int GOLES_MAXIMO = 7; //contante de los goles máximo en cada partido
+	//private static final int GOLES_MAXIMO = 7; //contante de los goles máximo en cada partido
 	private Estadio estadio;
 	private Equipo local;
 	private Equipo visita;
@@ -57,7 +57,7 @@ public class Partido {
 		
 		System.out.println("*******************");
 		System.out.print(golesLocal+""+local.getName()+"-");
-		System.out.print(golesLocal+""+visita.getName());
+		System.out.print(golesVisita+""+visita.getName());
 		
 		System.out.println("*******************");
 	}

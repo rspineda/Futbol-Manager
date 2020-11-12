@@ -1,15 +1,20 @@
 package es.com.pc_futbol.model;
 
-public class DT {
+public class DT extends Persona{
 	
-	//identification:
-	private String nombre;
-
+	//identification (mediante herencia)
+	private String estrategia;
+	
 	//gets and sets:
-	public String getNombre() {
-		return nombre;
+	public String getEstrategia() {
+		return estrategia;
 	}
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
+
+	public void setEstrategia(String estrategia) {
+		this.estrategia = estrategia;
 	}
+
+	
+	
+	
 }

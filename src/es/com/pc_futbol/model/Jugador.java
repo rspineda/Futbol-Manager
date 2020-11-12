@@ -1,8 +1,8 @@
 package es.com.pc_futbol.model;
 
-public class Jugador {
-		//identification:
-		private String nombre;
+public class Jugador extends Persona{
+		
+		//identification:	
 		private int numeroCamiseta;
 		private boolean capitan;
 		private boolean lesionado;
@@ -17,14 +17,6 @@ public class Jugador {
 		private float promedio;
 			
 		//gets and sets:
-		public String getNombre() {
-			return nombre;
-		}
-
-		public void setNombre(String nombre) {
-			this.nombre = nombre;
-		}
-
 		public int getNumeroCamiseta() {
 			return numeroCamiseta;
 		}

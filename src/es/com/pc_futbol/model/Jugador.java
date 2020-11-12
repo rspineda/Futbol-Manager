@@ -85,4 +85,9 @@ public class Jugador {
 			return promedio;
 		}
 
+		public void setPromedio(float promedio) {
+			this.promedio = promedio;
+		}
+		
+
 }

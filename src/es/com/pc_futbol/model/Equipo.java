@@ -49,7 +49,7 @@ public class Equipo {
 		
 		
 		//agregando jugadores:
-		private void addJugador(Jugador jugador) {
+		public void addJugador(Jugador jugador) {
 			if(jugadores == null) {
 				jugadores = new ArrayList<>();
 			}

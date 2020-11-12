@@ -2,14 +2,14 @@ package es.com.pc_futbol.model;
 
 import java.util.ArrayList;
 
-public class Fecha {
+public class Jornada {
 
 	private int numero;
 	private boolean fechaFifa;
 	private ArrayList<Partido> partidos;
 	
 	//método constructor de Fecha  (mismo nombre que la clase y no devuelve nada)
-	public Fecha(int numero) {
+	public Jornada(int numero) {
 		this.numero = numero;
 	}
 	

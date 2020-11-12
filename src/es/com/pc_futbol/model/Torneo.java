@@ -7,7 +7,7 @@ public class Torneo {
 	private String nombre;
 	private String descripcion;
 	private boolean nacional;
-	private ArrayList<Fecha> fechas;
+	private ArrayList<Jornada> fechas;
 	
 	//gets and sets:
 	public String getNombre() {
@@ -30,7 +30,7 @@ public class Torneo {
 	}
 	
 	//agregando fechas:
-	public void addFecha(Fecha fecha) {
+	public void addFecha(Jornada fecha) {
 		if (fechas == null) {
 			fechas = new ArrayList<>();
 		}

@@ -55,11 +55,12 @@ public class Partido {
 		golesLocal = calcularGol(local);
 		golesVisita = calcularGol(visita);
 		
-		System.out.println("*******************");
-		System.out.print(golesLocal+""+local.getName()+"-");
-		System.out.print(golesVisita+""+visita.getName());
+		System.out.println("********RESULTADO DEL PARTIDO***********");
+		System.out.print(local.getName()+" "+golesLocal+"--");
+		System.out.println(golesVisita+" "+visita.getName());
 		
-		System.out.println("*******************");
+		System.out.println("****************************************");
+		
+		System.out.println("Partido jugado en el estadio: "+estadio.getNombre());
 	}
-	
 }
